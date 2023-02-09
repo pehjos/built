@@ -35,11 +35,9 @@
  .appbar{
     display: flex;
     align-items: center;
-   flex: 1;
-   width: 100%;
- 
+
    justify-content: space-between;
-   height: 80px;
+   height: 70px;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
  }   
  .appbar_profile_img>img{
@@ -63,18 +61,18 @@ height: 30px;
  .appbar_notification{
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 3px;
     justify-content: center;
     width: 40px;
     height: 40px;
     border: 1px solid lightgrey;
-    border-radius: 50%;
+    border-radius: 999px;
     margin-top: 15px;
  }
  .appbar_search{
     display: flex;
-width: 500px;
+width: 90%;
 align-items: center;
 height: 40px;
 background-color: rgba(241, 237, 237, 0.863);
@@ -86,7 +84,7 @@ padding: 3px;
    margin-left: 10px;
  }
  .appbar_search>input{
-width: 420px;
+width: 80%px;
 background-color: rgba(241, 237, 237, 0.863);
 padding: 2px;
 outline-width: 0;
@@ -102,6 +100,8 @@ background-color: rgb(223, 175, 87);
 height: 5px;
 margin-left: -5px;
 
+ } .appbar_name{
+width: 80px;
  }
  .appbar_name>p{
 margin-top: -20px;

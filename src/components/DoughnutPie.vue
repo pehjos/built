@@ -61,7 +61,7 @@
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   padding: 10px;
   height: 400px;
-  width: 400px;
+  width: 40%;
   border-radius: 8px;
   margin: 20px;
 }
@@ -91,6 +91,8 @@ flex-direction: column;
 display: flex;
 align-items: center;
 margin: 10px;
+
+font-size: 12px;
 }
 .legend_child>div{
 width: 10px;
@@ -128,9 +130,10 @@ margin: 10px;
             border-radius: 50%;
             background-color: orangered;
             padding: 2px;
+               font-size: 13px;
               }
               .items_sold{
-               
+            
                display: flex;
                justify-content: space-between;
               }

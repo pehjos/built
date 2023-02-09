@@ -87,6 +87,7 @@
 table {
     border: 1px solid #e6e8f0;
     border-radius: 8px;
+    font-size: 14px;
   }
   
   tr:nth-child(even) {

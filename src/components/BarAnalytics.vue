@@ -164,7 +164,9 @@ align-items: center;
 }
 .bar{
     display: flex;
-
+justify-content: space-between;
+margin-top: 20px;
+font-size: 13px;
 }
 .label_top{
     display: flex;
@@ -279,7 +281,7 @@ margin: 10px;
 .bar_class{
     display: flex;
     flex-direction: column;
-    margin: 30px;
+
 }
 li{
     list-style-type: none;
@@ -305,7 +307,7 @@ ul{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 10px;
     height: 400px;
-    width: 847px;
+    width: 60%;
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 8px;

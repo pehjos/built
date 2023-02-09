@@ -101,6 +101,7 @@
   }
   .side_bar_munu_list>p{
   margin-left: 12px;
+  font-size: 14px;
   }
   .user_preference{
     position: absolute;
