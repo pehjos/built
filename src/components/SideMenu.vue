@@ -110,7 +110,7 @@
   }
   .side_bar_header{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
-    height: 80px;
+    height: 70px;
     font-weight: bolder;
   }
   .side_bar_header>svg{

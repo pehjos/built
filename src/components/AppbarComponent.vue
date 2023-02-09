@@ -64,17 +64,17 @@ height: 30px;
     margin-right: 20px;
     padding: 3px;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: 1px solid lightgrey;
     border-radius: 999px;
-    margin-top: 15px;
+    margin-top: 10px;
  }
  .appbar_search{
     display: flex;
 width: 90%;
 align-items: center;
-height: 40px;
+height: 30px;
 background-color: rgba(241, 237, 237, 0.863);
 margin-right: 20px;
 border-radius: 30px;
@@ -100,8 +100,12 @@ background-color: rgb(223, 175, 87);
 height: 5px;
 margin-left: -5px;
 
- } .appbar_name{
+ } 
+
+ 
+ .appbar_name{
 width: 80px;
+margin-top: -10px;
  }
  .appbar_name>p{
 margin-top: -20px;
